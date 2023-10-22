@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN LOGIN</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+     <!-- Bootstrap -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js">
+     </script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js">
+     </script>
+ 
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+ 
+     <!-- Jquery -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <section id="admin_login">
+
+        <div class="container">
+
+            <nav class="navbar">
+                <span class="navbar-brand mb-0 h1 text-light">SyeD FurniZen</span>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" id="nav-item">
+                        <a href="index.html" class="nav-link">USER</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+                <div class="login_section mt-4">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12 pl-4 order-lg-0 order-1" id="login1">
+                            <form action="admin_page.html" name="loginForm">
+                                <div class="form1">
+                                    <label class="label-control mt-4">UserName  </label>
+                                    <input type="text" class="form-control mt-2" placeholder="Enter UserName" name="username">
+                                    <label class="label-control mt-3">Password  </label>
+                                    <input type="password" class="form-control mt-2 " placeholder="Enter Password" name="password">
+                                    <input type="button" value="Login" class="btn btn-success btn-block mt-5 mb-4" onclick="login()">
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="col-lg-6 col-12 mt-lg-0 mt-md-3 mt-3 mt-3 order-lg-1 order-0" id="img1">
+                            <img src="assets/image/bg2.jpg" width="100%">
+                        </div>
+
+                    </div><br>
+                </div>
+
+        </div>
+    </section>
+
+    <script>
+        function login(){
+            var user = document.loginForm.username.value;
+            var pass = document.loginForm.password.value;
+
+            if(user=="" || pass==""){
+                alert("Please Enter UserName and Password");
+            }
+            else{
+                if((user=="admin"||user=="ADMIN")&& pass=="admin123"){
+                document.loginForm.submit();
+            }
+            else{
+                alert("Please Enter Correct Credentials");
+                }
+            }
+            }
+    </script>
+</body>
+</html>

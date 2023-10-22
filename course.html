@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js">
+    </script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <!-- NavBar Starts -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand"><span>S</span>ye<span>D</span><span> F</span>urni<span>Z</span>en</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar"> 
+                <span class="navbar-toggler-icon" style="font-size: 18px;"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item active mt-lg-0 mt-4">
+                        <a href="home.html" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="course.html" class="nav-link">PRICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="event.html" class="nav-link">CLIENTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="commends.html" class="nav-link">COMMANDS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">CONTACT</a>
+                    </li>
+                    <a class="btn btn-success ml-2 text-light" href="get_started.html" style="border-radius: 3.2rem;">Get Started</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- NavBar Ends -->
+
+    <!-- Course Starts -->
+    <section>
+        <div class="container">
+            <div class="title"><br><br><br><br><br>
+                <h1>Our Prices</h1>
+            </div>
+
+            <div class="price mt-5">
+                <div class="card text-center" style="background-color: #37fd65;">
+                    <div class="card-body">
+                        <h3 class="card-title">Matress</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, cum!</p>
+                        <div id="c1" onmouseover="mOver()" onmouseout="mOut()">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-center mt-4" style="background-color: #37fd65;">
+                    <div class="card-body">
+                        <h3 class="card-title">Celing Lights</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, cum!</p>
+                        <div id="c2" onmouseover="mOver1()" onmouseout="mOut1()">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-center mt-4" style="background-color: #37fd65;">
+                    <div class="card-body">
+                        <h3 class="card-title">Chairs</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, cum!</p>
+                        <div id="c3" onmouseover="mOver2()" onmouseout="mOut2()">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-center mt-4" style="background-color: #37fd65;">
+                    <div class="card-body">
+                        <h3 class="card-title">Closet</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, cum!</p>
+                        <div id="c4" onmouseover="mOver3()" onmouseout="mOut3()">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-center mt-4 mb-5" style="background-color: #37fd65;">
+                    <div class="card-body">
+                        <h3 class="card-title">Sofa</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, cum!</p>
+                        <div id="c5" onmouseover="mOver4()" onmouseout="mOut4()">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="price.js"></script>
+    </section>
+    <!-- Course Ends -->
+
+    <!-- Footer Starts -->
+    <footer>
+        <div class="container">
+            <span>&copy; Copyrights <span style="font-weight: 700;">SyeD FurniZen</span>. All Rights Reserved</span>
+        </div>
+    </footer>
+    <!-- Footer Ends -->
+</body>
+</html>

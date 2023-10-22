@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    scroll-behavior: smooth;
+}
+#user_login{
+    background: linear-gradient(35deg,#009245,#009245,#009245,#009245,#fced21c2);
+    height: 100vh;
+}
+#admin_login{
+    background: linear-gradient(35deg,#009245,#009245,#009245,#009245,#fced21c2);
+    height: 100vh;
+}
+/* Login Starts */
+
+.navbar span{
+    font-size: 40px;
+    font-weight: 900;
+}
+#nav-item a{
+    font-size: 24px;
+    font-weight: 600;
+    color:black;
+}
+.form1 input, 
+.form1 button{
+    border-radius: 3.2rem;
+}
+.form1 label{
+    font-weight: 600;
+}
+.login_section .row{
+    background: white;
+}
+.nav-item {
+    border: thin solid white;
+    border-radius: 3.2rem;
+    padding-left:10px;
+    padding-right:10px;
+    transition: all 0.5s;
+}
+.nav-item:hover{
+    background-color: #fff;
+}
+.nav-item:hover a{
+    color: #000;
+}
+/* Login Ends */
+
+
+/* NavBar Starts */
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-weight:800
+}
+.navbar .navbar-brand span{
+    color:#28a745;
+}
+
+/* NavBar Ends */
+
+
+/* Home Starts */
+#home{
+    background: url(bg1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.welcome{
+    position: absolute;
+    top: 30%;
+}
+.welcome h1{
+    font-weight: 700;
+}
+/* Home Ends */
+
+
+/* brands Starts */
+.title h1{
+    display: inline;
+    border-bottom:thick solid #28a745;
+}
+#brand11 a:hover{
+    text-decoration: none;
+}
+/* brands Starts */
+
+
+/* Product Starts */
+.p1{
+    font-size: 20px;
+}
+.p1 a{
+    color: #28a745;
+    padding: 10px;
+}
+.p1 a:hover{
+    text-decoration: none;
+    color: #28a745;
+    border-bottom: thin solid #28a745;
+}
+/* Product Starts */
+
+
+/* worker Starts */
+.why{
+    border-left: thick solid #28a745;
+}
+/* worker Ends */
+
+
+/* Course Starts */
+#c1{
+    background-color: #28a745;
+    padding: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+#c2{
+    background-color: #28a745;
+    padding: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+#c3{
+    background-color: #28a745;
+    padding: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+#c4{
+    background-color: #28a745;
+    padding: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+#c5{
+    background-color: #28a745;
+    padding: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+/* Course Ends */
+
+
+/* command Starts */
+h5 .btn-link{
+    color: #000;
+    font-size: 20px;
+    text-align: left;
+}
+h5 .btn-link:hover{
+    color: #28a745;
+    text-decoration: none;
+}
+
+/* command Ends */
+
+
+/* Contact Starts */
+.contact1{
+    background-color: #28a7469c;
+    text-align: center;
+    padding: 40px;
+}
+/* Contact Ends */
+
+/* Admin Page Starts */
+/* Home Starts */
+.carousel-caption h1{
+    color: #000;
+    font-weight: 900;
+}
+.carousel-caption p{
+    color: #000;
+    font-weight: 500;
+}
+.carousel-item img{
+    position: relative;
+}
+.carousel-caption{
+    position: absolute;
+    top: 30%;
+}
+/* Home Ends */
+/* Admin Page Ends */
+
+/* footer Starts */
+footer{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 20px;
+}
+/* footer Starts */
